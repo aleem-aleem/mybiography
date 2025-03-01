@@ -1,0 +1,95 @@
+<!-- ASSIGNMENT # 5 -->
+<!-- Name: ALEEM ALEEM -->
+<!-- STUDENT NUM: 110013224 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Specifies the document type and version of XHTML -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <!-- Root element of the XHTML document with namespace and language attributes -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Sets the character encoding of the document -->
+    <title>Education</title>
+    <link rel="stylesheet" href="mycss.css">
+    <style>
+        body {
+            font-family: serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #cecfce;
+        }
+        header {
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #068336;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Education</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="mybio.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="work.html">Work Experience</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>My Academic Background</h2>
+        <p>I am currently pursuing a <strong>Bachelor of Information Technology (BIT)</strong> degree at the <b>University of Windsor</b> since 2023. Below is my completed education:</p>
+        
+        <h2>Completed Degrees/Certificates</h2>
+        <table>
+            <tr>
+                <th>Certifications</th>
+                <th>Institution</th>
+                <th>Stage of Education</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Realtor Diploma</td>
+                <td>Humber College</td>
+                <td>Post-secondary</td>
+                <td>January 2024</td>
+            </tr>
+            <tr>
+                <td>Bachelor of Information Technology (BIT)</td>
+                <td>University of Windsor</td>
+                <td>Ongoing</td>
+                <td>2023 - Present</td>
+            </tr>
+        </table>
+        <br/>
+        <hr/>
+            
+        <h3>Feedback Form</h3>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        &copy; 2025 Aleem ALEEM. All rights reserved.
+    </footer>
+</body>
+</html>

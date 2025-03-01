@@ -1,0 +1,135 @@
+/* ASSIGNMENT # 5
+Name: ALEEM ALEEM
+STUDENT NUM: 110013224 */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa; /* Soft background color for a clean look */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark grey text for better readability */
+}
+
+header, nav, section, footer {
+    width: 85%; /* More subtle width for better balance */
+    margin: auto;
+    padding: 0 20px; /* Added padding for spacing */
+}
+
+/* Adjusting header styling to reflect heading color */
+header {
+    background-color: #1d2c3c; /* Deep blue for a professional header */
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    border-radius: 8px 8px 0 0; /* Slightly rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+header h1 {
+    font-size: 2.5em; /* Increased heading size for better prominence */
+    font-weight: 600;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2d3e50;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+
+
+section {
+    background-color: #ffffff; /* White background for the content */
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow around sections */
+    margin-top: 30px;
+}
+
+h1, h2 {
+    font-weight: 600;
+    color: #2d3e50;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #e0e0e0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1em;
+}
+
+th {
+    background-color: #f4f7fa;
+    font-weight: 600;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Slightly rounded corners for images */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2d3e50;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 30px;
+    border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
